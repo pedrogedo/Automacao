@@ -10,7 +10,7 @@ public class AbrirBrowser {
 	
 	private WebDriver driver;
 	
-	public WebDriver abrirNav(String site){
+	public WebDriver abrirNavegador(String site){
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		System.setProperty("webdriver.ie.driver", "chromedriver.exe");
 		ChromeOptions chromeOptions = new ChromeOptions();

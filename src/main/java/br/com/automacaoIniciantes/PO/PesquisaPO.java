@@ -6,13 +6,13 @@ import org.openqa.selenium.WebElement;
 
 public class PesquisaPO {
 	
-	public WebElement campoBusca(WebDriver driver){
+	public WebElement pesquisaGoogle(WebDriver driver){
 		WebElement campo = driver.findElement(By.xpath(".//input[@title='Pesquisar']"));
 		return campo;
 	}
 	
-	public WebElement pesquisar(WebDriver driver) {
-		WebElement botao = driver.findElement(By.xpath(".//input[@value='Pesquisa Google']"));
-		return botao;
+	public WebElement botaoPesquisaGoogle(WebDriver driver) {
+		WebElement botaoPesquisa = driver.findElement(By.xpath(".//input[@value='Pesquisa Google']"));
+		return botaoPesquisa;
 	}
 }
